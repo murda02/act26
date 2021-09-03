@@ -7,7 +7,7 @@ const PORT = 3001;
 
 const app = express();
 
-// Import custom middleware, "cLog"
+
 app.use(clog);
 
 // Middleware for parsing JSON and urlencoded form data
